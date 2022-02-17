@@ -1,0 +1,82 @@
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:25": Setting up the environment......................
+
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:58": The configuration of this experiment is as follows:
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:59": The model is: UNet.
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:60": The dataset is: CMRDataset.
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:61": The optimizer is: SGD.
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:62": The criterion is: CrossEntropyLoss: 1 ,DiceLoss: 0.
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:105": Start training....................................................
+
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:111": The configuration of training is as follows:
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:112": The epochs are 12, total iters are 25.
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:113": The print frequence is 6.
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:114": The evaluate frequence is 3.
+[INFO][2021-11-15 17:06]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:115": The Cuda use is True.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 0/12, Iter: 5/25,                                   Loss: 1.0107182164986928,                                   Rest time: 0ds:0hs:4ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 0/12, Iter: 11/25,                                   Loss: 0.7759000683824221,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 0/12, Iter: 17/25,                                   Loss: 0.6348596347702874,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 0/12, Iter: 23/25,                                   Loss: 0.5424987077713013,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 1/12, Iter: 5/25,                                   Loss: 0.4690576171682727,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 1/12, Iter: 11/25,                                   Loss: 0.42206201601672816,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 1/12, Iter: 17/25,                                   Loss: 0.38661620367405025,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 1/12, Iter: 23/25,                                   Loss: 0.3595376200213724,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 2/12, Iter: 5/25,                                   Loss: 0.33363513581986937,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 2/12, Iter: 11/25,                                   Loss: 0.3128823606717971,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 2/12, Iter: 17/25,                                   Loss: 0.2968861359883757,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 2/12, Iter: 23/25,                                   Loss: 0.28147794719080665,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:170": The val loss evaluated on epoch 2 is 0.8418174914519311.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:173": The val loss evaluated on epoch 2 is now the best.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:187": Save model to /home/shuo/Projects/school_assignments/UoB/NC/cw1/exprs/example/best_epoch2.pth.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 3/12, Iter: 5/25,                                   Loss: 0.2653424949557693,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 3/12, Iter: 11/25,                                   Loss: 0.25294236342112225,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 3/12, Iter: 17/25,                                   Loss: 0.24221399402426136,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 3/12, Iter: 23/25,                                   Loss: 0.23242049001985127,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 4/12, Iter: 5/25,                                   Loss: 0.22217452944309082,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 4/12, Iter: 11/25,                                   Loss: 0.2139599154304181,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 4/12, Iter: 17/25,                                   Loss: 0.2061193720516512,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 4/12, Iter: 23/25,                                   Loss: 0.19990392930565343,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 5/12, Iter: 5/25,                                   Loss: 0.19267633039760226,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 5/12, Iter: 11/25,                                   Loss: 0.18711993489822332,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 5/12, Iter: 17/25,                                   Loss: 0.18189141628417102,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 5/12, Iter: 23/25,                                   Loss: 0.17686790290394885,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:170": The val loss evaluated on epoch 5 is 0.86510215000588.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:173": The val loss evaluated on epoch 5 is now the best.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:187": Save model to /home/shuo/Projects/school_assignments/UoB/NC/cw1/exprs/example/best_epoch5.pth.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 6/12, Iter: 5/25,                                   Loss: 0.17139792294265369,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 6/12, Iter: 11/25,                                   Loss: 0.16718273237347603,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 6/12, Iter: 17/25,                                   Loss: 0.16301515798217484,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 6/12, Iter: 23/25,                                   Loss: 0.15920443873552756,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 7/12, Iter: 5/25,                                   Loss: 0.15526443367916576,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 7/12, Iter: 11/25,                                   Loss: 0.15178956830485618,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 7/12, Iter: 17/25,                                   Loss: 0.14865139323658277,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 7/12, Iter: 23/25,                                   Loss: 0.14568250220100484,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 8/12, Iter: 5/25,                                   Loss: 0.1424464303276782,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 8/12, Iter: 11/25,                                   Loss: 0.1398835275322199,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 8/12, Iter: 17/25,                                   Loss: 0.13739637241040895,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 8/12, Iter: 23/25,                                   Loss: 0.1353100298105606,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:170": The val loss evaluated on epoch 8 is 0.8485139796423808.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 9/12, Iter: 5/25,                                   Loss: 0.1326203453979451,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 9/12, Iter: 11/25,                                   Loss: 0.13035032440778577,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 9/12, Iter: 17/25,                                   Loss: 0.12830597461189752,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 9/12, Iter: 23/25,                                   Loss: 0.1263318241959116,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 10/12, Iter: 5/25,                                   Loss: 0.12418384353804868,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 10/12, Iter: 11/25,                                   Loss: 0.12237245553948042,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 10/12, Iter: 17/25,                                   Loss: 0.12060346319548675,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 10/12, Iter: 23/25,                                   Loss: 0.11898947891908405,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 11/12, Iter: 5/25,                                   Loss: 0.11712871129985807,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 11/12, Iter: 11/25,                                   Loss: 0.11559040064336115,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 11/12, Iter: 17/25,                                   Loss: 0.11407263269298312,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:07]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:131": Epoch: 11/12, Iter: 23/25,                                   Loss: 0.11271987016932622,                                   Rest time: 0ds:0hs:0ms.
+[INFO][2021-11-15 17:08]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:170": The val loss evaluated on epoch 11 is 0.8657483511142502.
+[INFO][2021-11-15 17:08]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:173": The val loss evaluated on epoch 11 is now the best.
+[INFO][2021-11-15 17:08]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:187": Save model to /home/shuo/Projects/school_assignments/UoB/NC/cw1/exprs/example/best_epoch11.pth.
+[INFO][2021-11-15 17:08]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:170": The val loss evaluated on epoch after train is 0.8657483511142502.
+[INFO][2021-11-15 17:08]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:187": Save model to /home/shuo/Projects/school_assignments/UoB/NC/cw1/exprs/example/model.pth.
+[INFO][2021-11-15 17:08]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:145": End training...........................................................
+
+[INFO][2021-11-15 17:08]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:147": Train Summary:
+[INFO][2021-11-15 17:08]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:148": The best model is on epoch: 11, loss is: 0.8657483511142502, saved to /home/shuo/Projects/school_assignments/UoB/NC/cw1/exprs/example/best_epoch11.pth.
+[INFO][2021-11-15 17:08]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:149": The model after training is on epoch: 12, loss is: 0.8657483511142502, saved to /home/shuo/Projects/school_assignments/UoB/NC/cw1/exprs/example/model.pth.
+[INFO][2021-11-15 17:08]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:261": Generating the submission file.....................................
+
+[INFO][2021-11-15 17:08]"/home/shuo/Projects/school_assignments/UoB/NC/cw1/seg/solver.py:258": Save submission file to /home/shuo/Projects/school_assignments/UoB/NC/cw1/exprs/example/submission.csv.

@@ -1,0 +1,84 @@
+datasets:
+  BaseDataset:
+    data_dir: ../../data/course_dataset
+
+# For these elements implemented by us like model and loss functions, 
+#   we should write all of classes and their parameters and indicate the specific choice in expr.
+# For those elements implemnted by pytorch like optimizer, we can directly write the choice and params
+#   in their fields.
+models:
+  UNet:
+    n_channels: 1
+    n_classes: 4
+    bilinear: True
+  TransUNet:
+    img_dim: 96
+    in_channels: 1
+    out_channels: 128
+    head_num: 4
+    mlp_dim: 512
+    block_num: 8
+    patch_dim: 16
+    class_num: 4
+
+optimizers:
+  SGD:
+    lr: 0.01
+    momentum: 0.9
+
+schedulers:
+  StepLR:
+    step_size: 3
+    gamma: 0.5
+
+loss_fns:
+  CrossEntropyLoss:
+    weight: null
+  DiceLoss:
+    smooth: 0.1
+
+transforms:
+  transform1:
+    type: RandomHorizontalFlip # We use the type in order to instantiate many same transforms avoiding dict key conflict.
+    need_random_wrap: False # If a transform doesn't execute randomly like RandomRotation, we should wrap this transform to make it run randomly.
+    is_transform_label: True # This argument indicates whether this transform will transform label. Because some transforms should only transform image not label like blur.
+    params:
+      p: 0.5
+  transform2:
+    type: RandomVerticalFlip
+    need_random_wrap: False
+    is_transform_label: True
+    params:
+      p: 0.5
+  transform3:
+    type: RandomRotation
+    need_random_wrap: True
+    is_transform_label: True
+    params:
+      degrees: 20
+      p: 0.5
+  transform4:
+    type: GaussianBlur
+    need_random_wrap: True
+    is_transform_label: False
+    params:
+      kernel_size: 3
+      p: 0.5
+
+train:
+    epochs: 1
+    batch_size: 4
+    print_freq: 0.25 # This means printing information of train 1 / print_freq times every epoch.
+    val_freq: 1 # This means evaluating the performance of model on val-set 1 / val_freq times for whole epochs to get the best-performance model.
+    is_cuda: True
+
+expr:
+  random_seed: 24
+  model: UNet
+  dataset: BaseDataset
+  optimizer: SGD
+  scheduler: StepLR
+  loss_fn: # We use several loss functions simultaneously to calulate a weighted sum.
+    CrossEntropyLoss: 0.5
+    DiceLoss: 0.5
+  
